@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import ServiceCard from '@/components/ServiceCard';
-import Button from '@/components/Button';
 import { Dna, Pill, Apple, Heart, Activity, Sparkles } from 'lucide-react';
 
 export default function ServicesPage() {

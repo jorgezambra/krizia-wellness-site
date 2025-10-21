@@ -39,7 +39,7 @@ export default function ContactPage() {
             transition={{ delay: 0.2 }}
             className="text-xl text-ash font-body"
           >
-            Have questions? We'd love to hear from you.
+            Have questions? We&apos;d love to hear from you.
           </motion.p>
         </div>
       </section>

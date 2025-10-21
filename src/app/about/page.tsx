@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import Button from '@/components/Button';
 import { Award, BookOpen, Users, Heart } from 'lucide-react';
 
 export default function AboutPage() {

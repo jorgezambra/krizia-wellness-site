@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import Button from '@/components/Button';
-import { Calendar, Clock, Video, MapPin } from 'lucide-react';
+import { Clock, Video, MapPin } from 'lucide-react';
 
 const services = [
   { id: 'discovery', name: 'Discovery Call (15 min)', price: 'Free', duration: '15 min' },
