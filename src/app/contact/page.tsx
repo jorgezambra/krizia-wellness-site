@@ -171,10 +171,16 @@ export default function ContactPage() {
                   />
                 </div>
 
-                <Button type="submit" size="lg" className="w-full inline-flex items-center justify-center gap-2">
+                <button type="submit" className="w-full px-8 py-3.5 border-2 font-body rounded-full transition-all duration-300 hover:opacity-90 inline-flex items-center justify-center gap-2" style={{
+                  borderColor: '#3A3A3A',
+                  backgroundColor: '#3A3A3A',
+                  color: '#FFFFFF',
+                  fontSize: '15px',
+                  fontWeight: '400'
+                }}>
                   <Send size={20} />
                   Send Message
-                </Button>
+                </button>
               </form>
             </div>
           </div>

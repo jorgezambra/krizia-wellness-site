@@ -202,9 +202,15 @@ export default function BookingPage() {
               />
             </div>
 
-            <Button type="submit" size="lg" className="w-full">
+            <button type="submit" className="w-full px-8 py-3.5 border-2 font-body rounded-full transition-all duration-300 hover:opacity-90" style={{
+              borderColor: '#3A3A3A',
+              backgroundColor: '#3A3A3A',
+              color: '#FFFFFF',
+              fontSize: '15px',
+              fontWeight: '400'
+            }}>
               Request Booking
-            </Button>
+            </button>
 
             <p className="text-sm text-ash font-body mt-4 text-center">
               You will receive a confirmation email within 24 hours
